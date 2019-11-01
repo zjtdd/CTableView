@@ -14,7 +14,7 @@ void HeaderView::paintSection(QPainter *painter, const QRect &rect, int logicalI
 
     if(logicalIndex == _checkeBoxColumn){
 
-        //复选框位置
+        //复选框位置  111111111111
         _rectHeaderCheckBox.setX(rect.x() + 3);
         _rectHeaderCheckBox.setY(rect.y() + 10);
         _rectHeaderCheckBox.setWidth(14);
